@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { FaXTwitter, FaYoutube, FaDiscord } from "react-icons/fa6";
+import { FaBluesky, FaArchway, FaLinkedin, FaGithub, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { handleEmailClick } from "@/lib/utils";
 
 export function Hero() {
@@ -28,7 +28,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl font-bold tracking-tight"
         >
-          Rohit
+          QavurDagli
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -44,9 +44,10 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-xl text-muted-foreground max-w-[600px]"
         >
-          Hey, I&apos;m Rohit! I create educational content and tools that make
-          it super easy for anyone to learn new technical concepts. Currently,
-          I&apos;m building in the Arweave ecosystem with this simple idea 👇
+          Hello, with 33 years of technology and 5 years of blockchain experience, 
+          I am constantly learning and improving myself with my curiosity about the development and future of blockchain technology. 
+          I believe in decentralization, permaweb and privacy. As Anadolu Team, 
+          we contribute to decentralization with our validators and other services.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -54,7 +55,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-xl font-semibold italic"
         >
-          &quot;Come for the tech, stay for the vibes.&quot;
+          &quot;My guide is my conscience...&quot;
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -74,29 +75,53 @@ export function Hero() {
           className="flex gap-4 pt-4"
         >
           <a
-            href="https://x.com/ropats16"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:opacity-70"
-          >
-            <FaXTwitter size={24} />
-          </a>
-          <a
-            href="https://youtube.com/rohitcpatharre"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:opacity-70"
-          >
-            <FaYoutube size={24} />
-          </a>
-          <a
-            href="https://discord.com/users/ropats16"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:opacity-70"
-          >
-            <FaDiscord size={24} />
-          </a>
+          href="https://bsky.app/profile/qavurdagli.bsky.social"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaBluesky size={24} />
+        </a>
+        <a
+          href="https://warpcast.com/qavurdagli"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaArchway size={24} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/atillarslan73/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaLinkedin size={24} />
+        </a>
+        <a
+          href="https://github.com/QavurDagli"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaGithub size={24} />
+        </a>
+        <a
+          href="https://x.com/QavurDaglii"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaXTwitter size={24} />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCV7S19-ePzk7C3yivkj7lmQ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaYoutube size={24} />
+        </a>
         </motion.div>
       </motion.div>
       <motion.div
@@ -107,7 +132,7 @@ export function Hero() {
         className="relative w-full md:w-5/12 aspect-square md:aspect-auto md:h-[600px]"
       >
         <Image
-          src="/pfp_new.png"
+          src="/Anatolian-Team-Profile-Attila-Yeni.png"
           alt="Profile Image"
           width={600}
           height={600}

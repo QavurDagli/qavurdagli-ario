@@ -12,13 +12,13 @@ export function Navigation() {
     <>
       <nav className="w-full px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-semibold">
-          Rohit
+          QavurDagli
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-8">
           <Link href="#work" className="hover:opacity-70">
-            Work
+            🐆 Anatolian Team
           </Link>
           <Link href="#about" className="hover:opacity-70">
             About
@@ -56,7 +56,7 @@ export function Navigation() {
               onClick={() => setIsOpen(false)}
               className="hover:opacity-70"
             >
-              Work
+              🐆 Anatolian Team
             </Link>
             <Link
               href="#about"

@@ -28,27 +28,17 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold">
-              Hey, it&apos;s Rohit!
+              Hey, it&apos;s QavurDagli!
             </h2>
             <p className="text-xl text-muted-foreground">
-              I&apos;m a Developer Relations Engineer based in India,
-              specializing in creating educational content and tools that
-              simplify technical concepts. I&apos;m passionate about the Arweave
-              ecosystem, where I believe in collaboration over competition.
+            Hello, with 33 years of technology and 5 years of blockchain experience, 
+            I am constantly learning and improving myself with my curiosity about the development and future of blockchain technology. 
+            I believe in decentralization, permaweb and privacy. As Anadolu Team, 
+            we contribute to decentralization with our validators and other services.
             </p>
-            <p className="text-xl text-muted-foreground">
-              My journey in the web3 space has been focused on building bridges
-              between complex technology and developers. Through my work at
-              Arweave India, Community Labs, and Developer DAO, I&apos;ve
-              consistently worked to make technology more accessible and
-              enjoyable to learn.
-            </p>
-            <p className="text-xl text-muted-foreground">
-              The following philosophy guides my work, as I always say 👇
-            </p>
-            {/* <p className="text-xl font-medium italic">
-              &quot;Come for the tech, stay for the vibes.&quot;
-            </p> */}
+            {<p className="text-xl font-medium italic">
+              &quot;My guide is My conscience...&quot;
+            </p>}
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -57,7 +47,7 @@ export function About() {
             className="relative w-full aspect-video"
           >
             <Image
-              src="/vibes.png"
+              src="/irbis.png"
               alt="About Image"
               fill
               className="object-cover rounded-2xl"
